@@ -1,0 +1,94 @@
+html {
+    --gray: #f8ba83d5 !important; //special text
+    --gray-bg: rgba(255, 255, 255, 0.12); //background for inline code and tables
+    --gray-text: #F29966  !important; 
+    --menu-text: #bbb;
+    --body-color: #fff !important; //most text
+    --body-bg: #1b252e !important; //background
+  }
+  
+.highlight, body pre.highlight, .p {
+    color: #fff !important;
+}
+
+div.highlight>.pre-header, .pre-base  {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+}
+
+clap-button, clap-button+p.message {
+  display: none;
+}
+
+#_swipe {
+  display: none;
+}
+
+
+#photos {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(275px, 1fr));
+  justify-content: center;
+  padding: 4px;
+  grid-gap: 10px;
+}
+
+#photos img {
+width: 100%;
+object-fit: cover;
+transform: scale(1);
+transition: all 0.3s ease-in-out;
+&:hover {
+  transform: scale(1.05);
+}
+}
+
+h3 {
+  margin: 3rem 0 1rem;
+}
+
+.mb6 {
+  margin-bottom: 0rem;
+}
+
+main>footer.content, .figcaption {
+  color: var(--menu-text)
+}
+
+.warning {
+  @extend .note;
+  border-left: 1px solid crimson;
+  &:before{
+    content: "warning" !important;
+    color: crimson;
+  }
+}
+
+.tooltip {
+  @extend .note;
+  border-left: 1px solid yellow;
+  &:before{
+    content: "tool tip" !important;
+    color: yellow;
+  }
+}
+
+.def {
+  @extend .note;
+  border-left: 1px solid lightblue;
+  &:before{
+    content: "definition" !important;
+    color: lightblue;
+  }
+}
+
+.rec {
+  @extend .note;
+  border-left: 1px solid lightgreen;
+  &:before{
+    content: "recommendation" !important;
+    color: lightgreen;
+  }
+}
+
+// less than 705px and margin needs to be adjusted
