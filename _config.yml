@@ -312,6 +312,7 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - tmp
 include:
   - .well-known
   - LICENSE.md

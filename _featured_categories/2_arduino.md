@@ -19,7 +19,7 @@ description: >
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
 
-permalink: /projects/arduino
+permalink: /projects/arduino/
 
 image_url: /assets/blog/arduino.jpeg
 ---
