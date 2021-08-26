@@ -15,10 +15,13 @@ layout: base
 {% assign posts = site.categories[s] %}
 
 {% for post in posts %}
+<ul>
 <li class="h4">
 <a href="{{ post.url | relative_url }}" data-flip="title">
 <span >{{ post.title }}</span>
 </a>
 <span class="faded"> - {{ post.description }} </span> 
 </li>
+</ul>
 {% endfor %}
+

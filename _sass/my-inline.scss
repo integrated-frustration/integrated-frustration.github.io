@@ -48,11 +48,11 @@ h3 {
 }
 
 .mb6 {
-  margin-bottom: 0rem;
+  margin-bottom: 0rem !important;
 }
 
 main>footer.content, .figcaption {
-  color: var(--menu-text)
+  color: var(--menu-text) !important;
 }
 
 .warning {
