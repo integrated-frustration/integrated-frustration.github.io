@@ -55,6 +55,10 @@ main>footer.content, .figcaption {
   color: var(--menu-text) !important;
 }
 
+hy-push-state a {
+  text-decoration-thickness: 3.25px !important;
+}
+
 .warning {
   @extend .note;
   border-left: 1px solid crimson;
