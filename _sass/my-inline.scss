@@ -1,8 +1,7 @@
 html {
     --gray: #f8ba83d5 !important; //special text
-    --gray-bg: rgba(255, 255, 255, 0.12); //background for inline code and tables
+    --gray-bg: rgba(255, 255, 255, 0.12) !important; //background for inline code and tables
     --gray-text: #F29966  !important; 
-    --menu-text: #bbb;
     --body-color: #fff !important; //most text
     --body-bg: #1b252e !important; //background
   }
@@ -15,16 +14,12 @@ div.highlight>.pre-header, .pre-base  {
     background-color: rgba(0, 0, 0, 0.35) !important;
 }
 
-clap-button, clap-button+p.message, hr.dingbat, .avatar {
-  display: none;
-}
-
-#_swipe {
+clap-button, clap-button+p.message, hr.dingbat, .avatar, #_swipe {
   display: none;
 }
 
 
-#photos {
+.photos {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(275px, 1fr));
@@ -33,13 +28,13 @@ clap-button, clap-button+p.message, hr.dingbat, .avatar {
   grid-gap: 10px;
 }
 
-#photos img {
+.photos_img {
 width: 100%;
 object-fit: cover;
 transform: scale(1);
 transition: all 0.3s ease-in-out;
 &:hover {
-  transform: scale(1.05);
+  transform: scale(1.025);
 }
 }
 
@@ -59,7 +54,7 @@ hy-push-state a {
   text-decoration-thickness: 3.25px !important;
 }
 
-.warning {
+.warn {
   @extend .note;
   border-left: 1px solid crimson;
   &:before{
@@ -68,7 +63,7 @@ hy-push-state a {
   }
 }
 
-.tooltip {
+.tip {
   @extend .note;
   border-left: 1px solid yellow;
   &:before{
@@ -95,4 +90,35 @@ hy-push-state a {
   }
 }
 
-// less than 705px and margin needs to be adjusted
+
+.wrapper {
+  padding: 10px;
+}
+
+.about_img {
+  width: 250px;
+  border-radius: 10%;
+}
+
+.about_text {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.about {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  display: grid;
+  justify-content: center;
+}
+
+@media screen and (max-width: 630px) {
+  .about { 
+   float: none;
+   margin-right: auto;
+   margin-left: auto;
+ }
+}
+
+//less than 580px and snap into single column

@@ -8,6 +8,9 @@ sitemap: false
 categories: [drone]
 ---
 
+
+<h3 class="faded">{{ page.description }}</h3>
+
 1. TOC
 {:toc}
 
@@ -18,7 +21,7 @@ Have a discussion about the _costs_ of building your drone. It’s not cheap! We
 
 ### Choose your flight controller
 
-This varies based on your chosen optimization. In our case, we wanted a hybrid that can perform all the requirements mentioned above, to maximize our learning experience. So, we used the Navio2 with a Raspberry Pi 4. Another common build is for racing where the primary focus is to select a lightweight FCU. Once you have selected a FCU note down its weight.
+This varies based on your chosen optimization. In our case, we wanted a hybrid that can perform all the requirements mentioned above, to maximize our learning experience. So, we used the Navio2 with a Raspberry Pi 4. Another common build is for racing where the primary focus is to select a lightweight FCU. Once you have selected a FCU, note down its weight and proceed to the next step.
 
 ### Select motors, LIPOs, ESCs and propellers
 
@@ -31,7 +34,7 @@ These steps are interdependent, so they should be considered simultaneously.
 2. Then, look at the current being drawn when the motor is at maximum throttle with your specific propellor choice. This will give you the amperage for your ESCs. 
 
     If you are not using a Power Distribution module, please ensure your chosen ESCs have a Battery Eleminator Circuit capable of meeting your FCU's power requirements.
-    {:.warning}
+    {:.warn}
 
 3. Next, you should check what battery cell configuration can be used with the motors and ESCs you have chosen. Usually motors accept a range of battery cell configurations (e.g 4S-6S). Once you select the cell configuration that works with your ESCs and motors it's time to select an appropriate `mAh` value. Use [this calculator][bat]{:target="_blank"} and see the estimated time your drone will fly by changing the `mAh` value. It's also worth noting how the time changes as you vary the flying load (throttle).
 
@@ -44,7 +47,7 @@ These steps are interdependent, so they should be considered simultaneously.
     {:.figcaption}
 
     This weight estimate does not include any FPV equipment! If you wish to add FPV please select a transmission module and camera and add those weights too. They are usually an additional 30 grams.
-    {:.warning}
+    {:.warn}
 
 5. Once you get your total weight use [this calculator][motor]{:target="_blank"} to see if your drone can lift off! A ratio of `2:1` is good to fly and program with. But! Having a higher ratio means you need less power to fly, which means you can use your motors at more efficient speeds.
 

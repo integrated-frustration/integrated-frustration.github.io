@@ -8,6 +8,10 @@ sitemap: false
 categories: [drone]
 ---
 
+
+<h3 class="faded">{{ page.description }}</h3>
+
+
 1. TOC
 {:toc}
 
@@ -84,7 +88,10 @@ We encountered something very similar with our Navio2. We found that [buying DF1
 
 ### My GPS signal is poor!
 
-This is most likely because of interference or the GPS does not have direct line of sight with the sky. The interference from camera modules, radio receivers, FCU’s, etc can quickly and severely deteriorate GPS accuracy. To understand why this happens we recommend seeing this link. To solve this we recommend using a GPS mount to move the module as far away from other electronics as possible. As for direct line of sight, never fly indoors if using GPS navigation your signal will be weak at best.
+This is most likely because of eletromagnetic interference. Alternatively, your GPS may not have a direct line of sight with the sky. The interference from the Camera/Radio Receiver/FCU/etc can quickly and severely deteriorate GPS accuracy. 
+
+Use a GPS mount to move the module as far away from other electronics as possible. Avoid flying indoors if you want to use GPS navigation since your signal will likely be very weak.
+{:.rec}
 
 [ESCError]: https://forum.flitetest.com/index.php?threads/esc-constant-beep-no-solution.39196/
 [DF13]: https://www.aliexpress.com/item/32718835617.html?spm=a2g0o.search0304.0.0.5d91529e94SY3E&algo_pvid=9ae26a45-bb46-4851-b06a-39f6129bf055&algo_exp_id=9ae26a45-bb46-4851-b06a-39f6129bf055-0
