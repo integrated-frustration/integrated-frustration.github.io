@@ -8,7 +8,7 @@ sitemap: false
 * this list will be replaced by the toc
 {:toc .large-only}
 
-Copyright (c) 2020 Florian Klampfer <https://qwtel.com/>
+Copyright (c) 2020 based on the work by Florian Klampfer <https://qwtel.com/>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,8 +17,10 @@ the Free Software Foundation, either version 3 of the License, or
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. We assume NO 
+responsibility for the advice or recommendations provided in this website,
+as it is borne from our individual expereinces.
+See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
@@ -29,16 +31,12 @@ Appropriate credit as per Creative Commons licenses.
 
 | Work                                                   | License        | Changes
 |:-------------------------------------------------------|:---------------|:-
-| Photo by [Jeremy Bishop][jb]                           | [Unsplash]     | Liquify filter, blur
-| Photo by [Caleb George][cg]                            | [Unsplash]     | Liquify filter, patch tool, blur
+| Photo by [Jeremy Bishop][mp]                           | [Unsplash]     | crop, filter, blur
 | [IcoMoon Icons Free Version][11] by [Keyamoon][12]     | [CC-BY-SA-4.0] | None
-| [Touch-161562.svg][41]                                 | [CC0-1.0]      | Composition
 
-[jb]: https://unsplash.com/photos/1braZySlEKA
-[cg]: https://unsplash.com/photos/AtvuPUenaeI
+[mp]: https://unsplash.com/photos/uDlWb8uOK2o
 [11]: https://icomoon.io/#icons-icomoon
 [12]: http://keyamoon.com/
-[41]: https://commons.wikimedia.org/wiki/File:Touch-161562.svg
 
 
 ## Licenses

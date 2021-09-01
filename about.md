@@ -20,19 +20,33 @@ We hope you find our experiences useful and we would love to [hear from you!][ma
 <hr>
 
 {% for author in site.data.authors %}
+{% assign social = site.data.social %}
 {% unless forloop.first%}
 <h2 align="center"> {{ author.name }} </h2>
 
 <div class="wrapper">
 <div class="about">
 <img src="{{ author.picture.path | relative_url }}" alt="{{ author.name }}" class="about_img">
-</div>  
+
+<div class="sidebar-social">
+<ul> 
+<li> <a href="{{ author.email | prepend: social.email.prepend }}" title="{{ social.email.name }}" class="no-mark-external">
+<span class="{{ social.email.icon }}"></span></a></li>
+<li> <a href="{{ author.linkedin | prepend: social.linkedin.prepend }}" title="{{ social.linkedin.name }}" class="no-mark-external">
+<span class="{{ social.linkedin.icon }}"></span></a></li>
+</ul>
+</div>
+
+</div>
+
 <div>
 <p class="about_text">
 {{ author.about }}
 </p>
-</div> 
 </div>
+
+</div>
+
 
 {% unless forloop.last %}
 <hr style="clear:both">

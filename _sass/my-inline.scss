@@ -110,7 +110,7 @@ hy-push-state a {
   margin-right: 1rem;
   margin-bottom: 2rem;
   display: grid;
-  justify-content: center;
+  justify-items: center;
 }
 
 @media screen and (max-width: 630px) {
@@ -119,6 +119,13 @@ hy-push-state a {
    margin-right: auto;
    margin-left: auto;
  }
+}
+
+.sidebar-social>ul>li>a {
+  font-size: 1.5rem;
+  width: 4rem;
+  text-decoration: underline; 
+  border-bottom-style: none;
 }
 
 //less than 580px and snap into single column
