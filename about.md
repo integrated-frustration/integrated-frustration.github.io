@@ -12,10 +12,18 @@ Our vision is to share the __*frustration*__ that is inevitably __*integrated*__
 {:.lead}
 We want to contribute the knowledge and skills we gained by __making mistakes__, __troubleshooting__ our work and 
 __refining__ our creative and cognitive processes.
-We hope you find our experiences useful and we would love to [hear from you!][mail]
+We hope you find our experiences useful and we would love to hear from you!
 {:.about_text}
 
-[mail]: mailto:integratedfrustration@gmail.com
+<div class="sidebar-social">
+<ul> 
+<li> <a href="{{ if.email | prepend: social.email.prepend }}" title="{{ social.email.name }}" class="no-mark-external">
+<span class="{{ social.email.icon }}"></span></a></li>
+<li> <a href="{{ if.github | prepend: social.github.prepend }}" title="{{ social.github.name }}" class="no-mark-external">
+<span class="{{ social.github.icon }}"></span></a></li>
+</ul>
+</div>
+
 
 <hr>
 

@@ -4,6 +4,7 @@
 - if:
   name:              Integrated Frustration
   email:             integratedfrustration@gmail.com
+  github:           integrated-frustration
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -17,13 +18,6 @@
     srcset:
       1x:           
       2x:            
-
-  # Social media icons in sidebar
-  # Comment/uncommet to show/hide
-  # Rearrange to change the order in which they appear
-  social:
-    #github:           integrated-frustration
-    #email:           integratedfrustration@gmail.com
 
 # Another author (optional)
 - shearoy:
