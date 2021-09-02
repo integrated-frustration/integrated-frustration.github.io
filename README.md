@@ -1,20 +1,15 @@
-# Hydejack Starter Kit
+# Integrated Frustration
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
+Hello! This repo contains the source code for our [website](https://integrated-frustration.github.io/). 
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. Run `bundle install` [^1]
-4. Run `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+## Website Customizations
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://hydejack.com/docs/)
-* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+We have used the [Hydejack](https://hydejack.com/) theme as a basis for the website. We are very grateful to [qwtel](https://github.com/qwtel) for making this free, customizable and elegant theme.
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
+The most significant deviations from the original include:
+1. The [Gallery](https://integrated-frustration.github.io/gallery/) which is contained within `gallery.md`.
+2. The [Projects](https://integrated-frustration.github.io/projects/) page which adapts the categories in `_featured_categories` and displays them using `projects/project_showcase` and the custom `_layouts/list.html`.
+3. The overriding and extension of various CSS classes as written in `_sass/my-inline.scss`.  
 
-[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
+
+We would love to hear from you for any feedback on our work! Please reach out to [us!](https://integrated-frustration.github.io/)
