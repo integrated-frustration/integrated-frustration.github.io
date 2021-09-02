@@ -15,21 +15,24 @@ __refining__ our creative and cognitive processes.
 We hope you find our experiences useful and we would love to hear from you!
 {:.about_text}
 
-<div class="sidebar-social">
+{% assign social = site.data.social %}
+{% for author in site.data.authors %}
+{% if forloop.first %}
+
+<div class="sidebar-social" align="center">
 <ul> 
-<li> <a href="{{ if.email | prepend: social.email.prepend }}" title="{{ social.email.name }}" class="no-mark-external">
+<li> <a href="{{ author.email | prepend: social.email.prepend }}" title="{{ social.email.name }}" class="no-mark-external">
 <span class="{{ social.email.icon }}"></span></a></li>
-<li> <a href="{{ if.github | prepend: social.github.prepend }}" title="{{ social.github.name }}" class="no-mark-external">
+<li> <a href="{{ author.github | prepend: social.github.prepend }}" title="{{ social.github.name }}" class="no-mark-external">
 <span class="{{ social.github.icon }}"></span></a></li>
 </ul>
 </div>
 
-
 <hr>
+{% endif %}
 
-{% for author in site.data.authors %}
-{% assign social = site.data.social %}
-{% unless forloop.first%}
+
+{% unless forloop.first %}
 <h2 align="center"> {{ author.name }} </h2>
 
 <div class="wrapper">
