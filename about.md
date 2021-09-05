@@ -20,11 +20,21 @@ We hope you find our experiences useful and we would love to hear from you!
 {% for author in site.data.authors %}
 
 {% unless forloop.first %}
-## {{ author.name }}
+
 <div class="wrapper">
-<div class="about">
+
+## {{ author.name }}
+<div id="img">
 <img src="{{ author.picture.path | relative_url }}" alt="{{ author.name }}" class="about_img">
-<div class="sidebar-social">
+</div>
+
+<div id="txt">
+<p class="about_text">
+{{ author.about }}
+</p>
+</div>
+
+<div class="sidebar-social" id="ico">
 <ul> 
 <li> <a href="{{ author.email | prepend: social.email.prepend }}" title="{{ social.email.name }}" class="no-mark-external">
 <span class="{{ social.email.icon }}"></span></a></li>
@@ -32,13 +42,9 @@ We hope you find our experiences useful and we would love to hear from you!
 <span class="{{ social.linkedin.icon }}"></span></a></li>
 </ul>
 </div>
+
 </div>
-<div>
-<p class="about_text">
-{{ author.about }}
-</p>
-</div>
-</div>
+
 <hr style="clear:both">
 {% endunless %}
 {% endfor %}
