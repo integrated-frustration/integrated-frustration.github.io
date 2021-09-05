@@ -143,4 +143,12 @@ main>footer.content, .figcaption {
   border-bottom-style: none;
 }
 
+.read-more {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: right;
+  color: var(--menu-text);
+}
+
+
 //less than 580px and snap into single column

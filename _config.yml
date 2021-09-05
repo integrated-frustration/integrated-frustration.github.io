@@ -31,12 +31,12 @@ description:           >
 tagline:               A place for you to learn from our mistakes!
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [drone, troubleshooting, arduino, technology, engineering, DIY, navio2, raspberry pi]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/blog/logo.png
+logo:                  
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -217,7 +217,7 @@ hydejack:
 
   # Set to `true` if you don't intend on changing the accent color on a per-page basis. 
   # This will increase site build speed!
-  no_page_style:       false
+  no_page_style:       true
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -337,7 +337,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: 6ps-5_hGRXmObU-cvP6Q-_cQGVuSz2jdbkKTT_b4pF0
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>

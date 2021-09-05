@@ -94,6 +94,9 @@ It’s perfectly normal if you cannot connect it on your first-time. The spark i
 
 Credit: [YouTube](https://youtu.be/xF8GqpqKYlA){:.faded}
 
+Continue with [General](general.html){:.heading.flip-title}
+{:.read-more}
+
 [ESCError]: https://forum.flitetest.com/index.php?threads/esc-constant-beep-no-solution.39196/
 [DF13]: https://www.aliexpress.com/item/32718835617.html?spm=a2g0o.search0304.0.0.5d91529e94SY3E&algo_pvid=9ae26a45-bb46-4851-b06a-39f6129bf055&algo_exp_id=9ae26a45-bb46-4851-b06a-39f6129bf055-0
 [motortest]: https://ardupilot.org/copter/docs/connect-escs-and-motors.html

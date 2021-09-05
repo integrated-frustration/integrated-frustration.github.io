@@ -62,6 +62,9 @@ This may seem simple but when you start the process it can get really confusing 
 
 Ensure that your Receiver and Transmitter share at least __ONE__ protocol to communicate with each other!
 
+Continue with [Assembly](assembly.html){:.heading.flip-title}
+{:.read-more}
+
 [trouble]: ../drone/troubleshooting.html
 [general]: ../drone/general.html
 [rc]: ../drone/radio-communication.html
