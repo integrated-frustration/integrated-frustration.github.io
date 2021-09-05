@@ -15,20 +15,6 @@ categories: [drone]
 1. TOC
 {:toc}
 
-### When connecting my LIPO to the drone, I see a spark! 
-
-This is surprisingly normal if your battery has a high `S/mAh` count. The spark is because of the fast charging of the ESCs capacitors, even if you have a filter capacitor on the Power Distribution board (PD). When connecting your drone it is important to be cautious of any excessive heating of the **LIPO, ESCs or PD**. Any burn marks usually indicate a problem with the component or wrongly calculated power requirements. To prevent your drone from getting damaged:
-
-* __Triple-check__ all calculations before ordering any components. A simple trick is to add all the components to your cart and then check power requirements from scratch
-* When starting the drone for the first time, attach all your components first, excluding only the propellers. Generally, a __larger load will reduce the spark intensity.__
-* Try to __angle the connector so the positive terminal connects first__. Wait for about 3 seconds and then connect the negative terminal. This works because when the positive side is connected it goes through the whole circuit and then when the negative side touches the discharge is far lesser hence reducing the spark
-* Buy the __anti spark-version__ of your connector, if available. It will be safer and quicker to connect up
-
-It’s perfectly normal if you cannot connect it on your first-time. The spark is quite a surprise! Just remember, if you see a big spark many times (20+ in our experience), your connector will start to blacken and wear off.
-
-![Drone Spark](/assets/blog/drone_spark.gif){: width="500px" loading="lazy" style="border-radius:25px"}
-
-Credit: [YouTube](https://youtu.be/xF8GqpqKYlA){:.faded}
 
 ### My LIPO charger is getting quite hot when charging!
 
@@ -92,6 +78,21 @@ This is most likely because of eletromagnetic interference. Alternatively, your 
 
 Use a GPS mount to move the module as far away from other electronics as possible. Avoid flying indoors if you want to use GPS navigation since your signal will likely be very weak.
 {:.rec}
+
+### When connecting my LIPO to the drone, I see a spark! 
+
+This is surprisingly normal if your battery has a high `S/mAh` count. The spark is because of the fast charging of the ESCs capacitors, even if you have a filter capacitor on the Power Distribution board (PD). When connecting your drone it is important to be cautious of any excessive heating of the **LIPO, ESCs or PD**. Any burn marks usually indicate a problem with the component or wrongly calculated power requirements. To prevent your drone from getting damaged:
+
+* __Triple-check__ all calculations before ordering any components. A simple trick is to add all the components to your cart and then check power requirements from scratch
+* When starting the drone for the first time, attach all your components first, excluding only the propellers. Generally, a __larger load will reduce the spark intensity.__
+* Try to __angle the connector so the positive terminal connects first__. Wait for about 3 seconds and then connect the negative terminal. This works because when the positive side is connected it goes through the whole circuit and then when the negative side touches the discharge is far lesser hence reducing the spark
+* Buy the __anti spark-version__ of your connector, if available. It will be safer and quicker to connect up
+
+It’s perfectly normal if you cannot connect it on your first-time. The spark is quite a surprise! Just remember, if you see a big spark many times (20+ in our experience), your connector will start to blacken and wear off.
+
+![Drone Spark](/assets/blog/drone_spark.gif){: width="500px" loading="lazy" style="border-radius:25px"}
+
+Credit: [YouTube](https://youtu.be/xF8GqpqKYlA){:.faded}
 
 [ESCError]: https://forum.flitetest.com/index.php?threads/esc-constant-beep-no-solution.39196/
 [DF13]: https://www.aliexpress.com/item/32718835617.html?spm=a2g0o.search0304.0.0.5d91529e94SY3E&algo_pvid=9ae26a45-bb46-4851-b06a-39f6129bf055&algo_exp_id=9ae26a45-bb46-4851-b06a-39f6129bf055-0
