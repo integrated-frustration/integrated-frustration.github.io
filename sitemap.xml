@@ -2,9 +2,9 @@
 layout: null
 ---
 
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
 <loc>https://integrated-frustration.github.io/</loc>
 </url>
@@ -22,5 +22,32 @@ layout: null
 </url>
 <url>
 <loc>https://integrated-frustration.github.io/projects/arduino/</loc>
+</url>
+<url>
+<loc>https://integrated-frustration.github.io/projects/drone/troubleshooting.html</loc>
+</url>
+<url>
+<loc>https://integrated-frustration.github.io/projects/drone/general.html</loc>
+</url>
+<url>
+<loc>https://integrated-frustration.github.io/projects/drone/power&batteries.html</loc>
+</url>
+<url>
+<loc>https://integrated-frustration.github.io/projects/drone/esc.html</loc>
+</url>
+<url>
+<loc>https://integrated-frustration.github.io/projects/drone/radio-communication.html</loc>
+</url>
+<url>
+<loc>https://integrated-frustration.github.io/projects/drone/choosing-hardware.html</loc>
+</url>
+<url>
+<loc>https://integrated-frustration.github.io/projects/drone/assembly.html</loc>
+</url>
+<url>
+<loc>https://integrated-frustration.github.io/projects/drone/flight.html</loc>
+</url>
+<url>
+<loc>https://integrated-frustration.github.io/projects/arduino/coming-soon.html</loc>
 </url>
 </urlset>
