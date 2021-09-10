@@ -4,7 +4,6 @@ title: Projects
 description: >
   A showcase of our projects
 hide_description: true
-sitemap: false
 permalink: /projects/
 ---
 

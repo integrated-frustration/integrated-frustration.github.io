@@ -1,3 +1,10 @@
+---
+layout: plain
+sitemap: false
+permalink: /licenses/
+---
+
+
 # MIT License
 
 Copyright (c) \<YEAR\> \<COPYRIGHT HOLDER\>
