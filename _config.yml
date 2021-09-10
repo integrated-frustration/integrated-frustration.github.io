@@ -68,7 +68,7 @@ legal:
 copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:title/
+permalink:             none
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10

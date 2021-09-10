@@ -62,12 +62,12 @@ This may seem simple but when you start the process it can get really confusing 
 
 Ensure that your Receiver and Transmitter share at least __ONE__ protocol to communicate with each other!
 
-Continue with [Assembly](assembly){:.heading.flip-title}
+Continue with [Assembly](assembly.html){:.heading.flip-title}
 {:.read-more}
 
-[trouble]: ../drone/troubleshooting
-[general]: ../drone/general
-[rc]: ../drone/radio-communication
+[trouble]: ../drone/troubleshooting.html
+[general]: ../drone/general.html
+[rc]: ../drone/radio-communication.html
 
 [motor]: https://www.omnicalculator.com/other/drone-motor
 [bat]: http://multicopter.forestblue.nl/lipo_need_calculator.html

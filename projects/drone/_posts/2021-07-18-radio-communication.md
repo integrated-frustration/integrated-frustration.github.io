@@ -52,7 +52,7 @@ No… These are two related but different systems. Both of them generally use ra
 
 BUT! RC (Radio Control) is generally a connection between your Radio Transmitter and Receiver that gives commands to your FCU to fly the drone. However, Telemetry is the flight data (location, altitude, battery level, video, etc.) your FCU sends back to you for monitoring and guidance. So, you can fly without Telemetry but not without some kind of RC (unless its autonomous). Some options for Telemetry include using WiFi, Bluetooth or another dedicated Radio Transmitter onboard to send out flight data. Recently, Radio Receivers have dual functionality and can both receive commands and send back Telemetry data.
 
-Continue with [Choosing Hardware](choosing-hardware){:.heading.flip-title}
+Continue with [Choosing Hardware](choosing-hardware.html){:.heading.flip-title}
 {:.read-more}
 
 [UART]: https://www.circuitbasics.com/basics-uart-communication/

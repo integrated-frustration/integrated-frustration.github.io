@@ -94,7 +94,7 @@ It’s perfectly normal if you cannot connect it on your first-time. The spark i
 
 Credit: [YouTube](https://youtu.be/xF8GqpqKYlA){:.faded}
 
-Continue with [General](../general){:.heading.flip-title}
+Continue with [General](general.html){:.heading.flip-title}
 {:.read-more}
 
 [ESCError]: https://forum.flitetest.com/index.php?threads/esc-constant-beep-no-solution.39196/
