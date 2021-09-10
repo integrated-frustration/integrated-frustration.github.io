@@ -4,7 +4,6 @@ title: coming soon
 description: >
   Stay Tuned!
 hide_description: true
-sitemap: false
 categories: [arduino]
 ---
 

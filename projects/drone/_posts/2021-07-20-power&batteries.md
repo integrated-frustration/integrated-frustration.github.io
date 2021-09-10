@@ -4,7 +4,6 @@ title: Power & Batteries
 description: >
   Setting up the Batteries and Power Supply
 hide_description: true
-sitemap: false
 categories: [drone]
 ---
 

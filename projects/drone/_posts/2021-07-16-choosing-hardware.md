@@ -4,7 +4,6 @@ title: Choosing Hardware
 description: >
   Costs, Frames, Flight controllers and More!
 hide_description: true
-sitemap: false
 categories: [drone]
 ---
 

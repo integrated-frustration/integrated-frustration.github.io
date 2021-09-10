@@ -4,7 +4,6 @@ title: Troubleshooting
 description: >
   Solving Common Frustrations
 hide_description: true
-sitemap: false
 categories: [drone]
 ---
 

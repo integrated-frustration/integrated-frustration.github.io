@@ -4,7 +4,6 @@ title: Radio Communication
 description: >
   RX/TX, Communication Protocols and Telemetry
 hide_description: true
-sitemap: false
 categories: [drone]
 ---
 
