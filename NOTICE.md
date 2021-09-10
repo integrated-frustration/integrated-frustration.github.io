@@ -1,7 +1,7 @@
 ---
 layout: plain
 sitemap: false
-permalink: /NOTICE/
+permalink: /notice/
 ---
 
 # NOTICE
