@@ -5,7 +5,7 @@ description: >
   Stay Tuned!
 hide_description: true
 sitemap: false
-categories: [DIY-Arduino]
+categories: [arduino]
 ---
 
 

@@ -94,4 +94,4 @@ Continue with [ESCs](esc.html){:.heading.flip-title}
 [Battery]: https://www.youtube.com/watch?v=RPzJOKoHhhQ&t
 [Silicon]: https://www.youtube.com/watch?v=RHbj0TSTiEA
 [connectors]: https://blog.ampow.com/rc-battery-connector-types/
-[spark]: /drone/troubleshooting.html#when-connecting-my-lipo-to-the-drone-and-charger-i-see-a-spark
+[spark]: troubleshooting.html#when-connecting-my-lipo-to-the-drone-and-charger-i-see-a-spark
