@@ -10,10 +10,10 @@ permalink: /licenses/
 {:toc .large-only}
 
 ## Open Source
-* [Apache-2.0](./Apache-2.0.html)
-* [GPL-3.0](./GPL-3.0.html)
-* [MIT](./MIT.html)
-* [W3C-20150513](./W3C-20150513.html)
+* [Apache-2.0](./Apache-2.0)
+* [GPL-3.0](./GPL-3.0)
+* [MIT](./MIT)
+* [W3C-20150513](./W3C-20150513)
 
 ## GNU GENERAL PUBLIC LICENSE
 {:.no_toc}

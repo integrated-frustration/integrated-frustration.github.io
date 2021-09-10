@@ -88,10 +88,10 @@ Depends on the current draw for your components. You can infer the gauge from th
 
 ![drone_gauge.jpeg](/assets/blog/drone_gauge.jpeg){: width="700px" loading="lazy" style="border-radius:25px"}
 
-Continue with [ESCs](esc.html){:.heading.flip-title}
+Continue with [ESCs](esc){:.heading.flip-title}
 {:.read-more}
 
 [Battery]: https://www.youtube.com/watch?v=RPzJOKoHhhQ&t
 [Silicon]: https://www.youtube.com/watch?v=RHbj0TSTiEA
 [connectors]: https://blog.ampow.com/rc-battery-connector-types/
-[spark]: troubleshooting.html#when-connecting-my-lipo-to-the-drone-and-charger-i-see-a-spark
+[spark]: troubleshooting/#when-connecting-my-lipo-to-the-drone-and-charger-i-see-a-spark
