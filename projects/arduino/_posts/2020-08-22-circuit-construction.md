@@ -25,7 +25,7 @@ categories: [arduino]
 
 5. It will ask you then for board measurements. You can use the standard Arduino Uno specifications found [here][unospec]{:target="_blank"}.
 
-Tip: If you want to save time and not make the right indentations just make the board using the max dimensions of $$L x B = (2.7 x 2.1) inch$$
+Tip: If you want to save time and not make the right indentations just make the board using the max dimensions of $$L \times B = (2.7 \times 2.1) inch$$
 
 6. You can now restructure, modify the PCB any way you wish! Save the file and use any PCB manufacturer of your choosing.
 
