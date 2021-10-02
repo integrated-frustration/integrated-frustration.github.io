@@ -53,7 +53,9 @@ main>footer.content, .figcaption {
 
 .warn {
   @extend .note;
-  border-left: 1px solid crimson;
+  background: #310000;
+  border-radius: 7px;
+  border-left: 5px solid crimson;
   &:before{
     content: "warning" !important;
     color: crimson;
@@ -62,7 +64,9 @@ main>footer.content, .figcaption {
 
 .tip {
   @extend .note;
-  border-left: 1px solid yellow;
+  background: #2e3100;
+  border-radius: 7px;
+  border-left: 5px solid yellow;
   &:before{
     content: "tool tip" !important;
     color: yellow;
@@ -71,7 +75,9 @@ main>footer.content, .figcaption {
 
 .def {
   @extend .note;
-  border-left: 1px solid lightblue;
+  background: #001031;
+  border-radius: 7px;
+  border-left: 5px solid lightblue;
   &:before{
     content: "definition" !important;
     color: lightblue;
@@ -80,7 +86,9 @@ main>footer.content, .figcaption {
 
 .rec {
   @extend .note;
-  border-left: 1px solid lightgreen;
+  background: #003100;
+  border-radius: 7px;
+  border-left: 5px solid lightgreen;
   &:before{
     content: "recommendation" !important;
     color: lightgreen;

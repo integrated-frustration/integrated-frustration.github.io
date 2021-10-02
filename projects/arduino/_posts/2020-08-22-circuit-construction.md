@@ -33,7 +33,10 @@ categories: [arduino]
 
 1. If you want to just see what connects where open the schematic file from [here][schematic]{:target="_blank"} or see the image below.
 
-![ArduinoSchematic](/assets/blog/arduino_schematic.png){: width="350px" loading="lazy" style="border-radius:25px"}
+<a href="/assets/blog/arduino_schematic.png" target="_blank">
+<img src="/assets/blog/arduino_schematic.png" alt="/assets/blog/arduino_schematic.png" loading="lazy" style="border-radius:25px" width="350px" >
+</a>
+
 
 2. Open the generated Gerber file from [here][gerber]{:target="_blank"} and then trace the path of the components.
 
